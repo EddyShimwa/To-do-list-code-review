@@ -30,7 +30,6 @@ const addData = (todoList, todoTask, todoTasks, i) => {
   threeDots.classList.add('bi', 'bi-three-dots-vertical');
 
   threeDots.addEventListener('click', () => {
-    //    threeDots.classList.add("bi", "bi-trash")  threeDots.classList.add("bi", "bi-trash");
 
   });
 
@@ -40,10 +39,5 @@ const addData = (todoList, todoTask, todoTasks, i) => {
   task.appendChild(threeDots);
   todoList.appendChild(task);
 };
-
-const removeTask = () => {
-
-};
-removeTask();
 
 export default addData;

@@ -1,7 +1,6 @@
 /* eslint-disable linebreak-style */
 import addData from '../modules/addData.js';
 import todoTasks from '../modules/todoTasks.js';
-// import markAs from '../modules/markAs.js';
 import './styles.css';
 
 const todoform = document.getElementById('EnterButton');

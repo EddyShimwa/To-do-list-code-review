@@ -1,8 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-undef */
 const markAs = (checkBox, taskName, todoTask) => {
-  // todoTasks[i].completed = !todoTasks[i].completed;
-
   if (todoTask.completed) {
     checkBox.classList.add('bi-check-circle-fill');
     checkBox.classList.remove('bi-circle');
